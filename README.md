@@ -18,3 +18,9 @@ build image
 cd nginx
 docker build -t gucs/nginx .
 ```
+
+build image
+```
+cd open-project-7
+docker build -t gucs/open-project-7 .
+```
