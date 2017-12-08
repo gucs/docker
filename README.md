@@ -24,6 +24,12 @@ run
 docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 --name mysql-56 gucs/mysql56
 ```
 
+stop
+
+```shell
+docker stop mysql-56
+```
+
 exec
 ```shell
 docker exec -it mysql-56 mysql -uroot -p123456
