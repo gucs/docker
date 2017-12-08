@@ -1,7 +1,8 @@
-# docker
+# 1. docker
+
 Dockerfile and docker-compose file
 
-## ubuntu-oracle-jdk8
+## 1.1. ubuntu-oracle-jdk8
 
 build image
 ```
@@ -9,7 +10,7 @@ cd ubuntu-oracle-jdk8
 docker build -t gucs/ubuntu-oracle-jdk8 .
 ```
 
-## mysql56
+## 1.2. mysql56
 
 build image
 
@@ -35,7 +36,7 @@ exec
 docker exec -it mysql-56 mysql -uroot -p123456
 ```
 
-## nginx
+## 1.3. nginx
 
 build image
 
@@ -44,7 +45,7 @@ cd nginx
 docker build -t gucs/nginx .
 ```
 
-## open-project-7
+## 1.4. open-project-7
 
 build image
 ```
