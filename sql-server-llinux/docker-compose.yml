@@ -1,0 +1,17 @@
+version: '3'
+services:
+  vlmcsd:
+    image: microsoft/mssql-server-linux
+    container_name: 'mssql'
+    ports:
+      - '1433:1433'
+    expose:
+      - '1433'
+#    volumes:
+#      - $DOCKER_VOLUMES_ROOT/mssql:/var/opt/mssql
+    environment:
+      - SA_PASSWORD=MSSQL2018Linux
+      - ACCEPT_EULA=Y
+#      - SSQL_PID=Express
+    stdin_open: true
+    tty: true
