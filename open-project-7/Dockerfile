@@ -1,4 +1,4 @@
-FROM openproject/community:8
+FROM openproject/community:8.3.0
 
 MAINTAINER Jonathan Gu <gucs.net@gmail.com>
 
