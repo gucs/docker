@@ -1,4 +1,4 @@
-FROM mysql/mysql-server:8
+FROM mysql/mysql-server:8.0
 
 MAINTAINER Jonathan Gu <gucs.net@gmail.com>
 
