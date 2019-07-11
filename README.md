@@ -36,6 +36,7 @@ exec
 docker exec -it mysql56 mysql -uroot -p123456
 ```
 
+
 ## 1.3. mysql57
 
 build image
@@ -61,6 +62,34 @@ exec
 ```shell
 docker exec -it mysql57 mysql -uroot -p123456
 ```
+
+
+## 1.3. mysql80
+
+build image
+
+```shell
+cd mysql80
+docker build -t gucs/mysql80 .
+```
+
+run
+
+```shell
+docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 --name mysql80 gucs/mysql80
+```
+
+stop
+
+```shell
+docker stop mysql80
+```
+
+exec
+```shell
+docker exec -it mysql80 mysql -uroot -p123456
+```
+
 
 ## 1.4. nginx
 
